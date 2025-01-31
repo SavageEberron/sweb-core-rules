@@ -3,17 +3,32 @@
   "title": "Savage Eberron: Campaign Setting",
   "description": "Homebrew Foundry module to handle information for my Savage Worlds in the Eberron Campaign Setting. Includes information from Savage Worlds Adventure Edition, Fantasy Companion, and Homebrew rules for use in my Savage Eberron.",
   "version": "#{VERSION}#",
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
   },
   "relationships": {
+    "requires": [
+        {
+            "id": "swade-core-rules",
+            "type": "module",
+            "compatibility": {}
+        },
+        {
+            "id": "swade-fantasy-companion",
+            "type": "module",
+            "compatibility": {}
+        }
+    ],
     "systems": [
-      {
-        "id": "swade",
-        "type": "system",
-        "compatibility": {}
-      }
+        {
+            "id": "swade",
+            "type": "system",
+            "compatibility": {}
+        }
     ]
   },
   "authors": [
@@ -39,9 +54,6 @@
       "flags": {}
     }
   ],
-  "url": "#{URL}#",
-  "manifest": "#{MANIFEST}#",
-  "download": "#{DOWNLOAD}#",
   "license": "LICENSE",
   "readme": "README.md",
   "media": [
