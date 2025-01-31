@@ -2,12 +2,19 @@
   "id": "sweb-core-rules",
   "title": "Savage Eberron: Campaign Setting",
   "description": "Homebrew Foundry module to handle information for my Savage Worlds in the Eberron Campaign Setting. Includes information from Savage Worlds Adventure Edition, Fantasy Companion, and Homebrew rules for use in my Savage Eberron.",
-  "version": "#{VERSION}#",
-  "library": "false",
-  "manifestPlusVersion": "1.2.0",
+  "version": "0.1.1",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "swade",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
   },
   "authors": [
     {
@@ -18,15 +25,6 @@
       "flags": {}
     }
   ],
-  "relationships": {
-    "systems": [
-      {
-        "id": "swade",
-        "type": "system",
-        "compatibility": {}
-      }
-    ]
-  },
   "packs": [
     {
       "name": "sweb-rules",
@@ -41,25 +39,9 @@
       "flags": {}
     }
   ],
-  "esmodules": [
-    "scripts/sweb-core-rules.js"
-  ],
-  "scripts": [
-    "scripts/lib/lib.js"
-  ],
-  "styles": [
-    "styles/sweb-core-rules.css"
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
-    }
-  ],
-  "url": "#{URL}#",
-  "manifest": "#{MANIFEST}#",
-  "download": "#{DOWNLOAD}#",
+  "url": "https://github.com/SavageEberron/sweb-core-rules",
+  "manifest": "https://github.com/SavageEberron/sweb-core-rules/releases/latest/download/module.json",
+  "download": "https://github.com/SavageEberron/sweb-core-rules/releases/download/0.1.1/module.zip",
   "license": "LICENSE",
   "readme": "README.md",
   "media": [
