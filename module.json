@@ -21,15 +21,27 @@
   },
   "changelog": "https://github.com/SavageEberron/sweb-core-rules/blob/master/CHANGELOG.md",
   "bugs": "https://github.com/SavageEberron/sweb-core-rules/issues",
-  "relationships": {
-    "systems": [
-      {
-        "id": "swade",
-        "type": "system",
-        "compatibility": {}
-      }
-    ]
-  },
+    "relationships": {
+        "requires": [
+            {
+                "id": "swade-core-rules",
+                "type": "module",
+                "compatibility": {}
+            },
+            {
+                "id": "swade-fantasy-companion",
+                "type": "module",
+                "compatibility": {}
+            }
+        ],
+        "systems": [
+            {
+                "id": "swade",
+                "type": "system",
+                "compatibility": {}
+            }
+        ]
+    },
   "packs": [
     {
       "name": "sweb-rules",
