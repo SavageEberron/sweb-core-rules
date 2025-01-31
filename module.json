@@ -1,34 +1,54 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
+  "id": "sweb-core-rules",
+  "title": "Savage Eberron: Campaign Setting",
+  "description": "Homebrew Foundry module to handle information for my Savage Worlds in the Eberron Campaign Setting. Includes information from Savage Worlds Adventure Edition, Fantasy Companion, and Homebrew rules for use in my Savage Eberron.",
   "version": "#{VERSION}#",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
-    "minimum": 10,
-    "verified": 10,
-    "maximum": 11
+    "minimum": "12",
+    "verified": "12"
   },
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "DM Freewolf",
+      "email": "phillip@everafter.games",
+      "url": "https://www.savagetalesofeberron.com",
+      "discord": "freewolf98",
+      "flags": {}
     }
   ],
   "relationships": {
-    "systems": [],
-    "requires": []
+    "systems": [
+      {
+        "id": "swade",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
   },
+  "packs": [
+    {
+      "name": "sweb-rules",
+      "label": "Core Rules",
+      "path": "packs/sweb-rules",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "flags": {}
+    }
+  ],
   "esmodules": [
-    "scripts/module.js"
+    "scripts/sweb-core-rules.js"
   ],
   "scripts": [
     "scripts/lib/lib.js"
   ],
   "styles": [
-    "styles/module.css"
+    "styles/sweb-core-rules.css"
   ],
   "languages": [
     {
