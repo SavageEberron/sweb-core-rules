@@ -3,19 +3,8 @@
   "title": "Savage Eberron: Campaign Setting",
   "description": "Homebrew Foundry module to handle information for my Savage Worlds in the Eberron Campaign Setting. Includes information from Savage Worlds Adventure Edition, Fantasy Companion, and Homebrew rules for use in my Savage Eberron.",
   "version": "#{VERSION}#",
-  "compatibility": {
-    "minimum": "12",
-    "verified": "12"
-  },
-  "relationships": {
-    "systems": [
-      {
-        "id": "swade",
-        "type": "system",
-        "compatibility": {}
-      }
-    ]
-  },
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
   "authors": [
     {
       "name": "DM Freewolf",
@@ -23,6 +12,50 @@
       "url": "https://www.savagetalesofeberron.com",
       "discord": "freewolf98",
       "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "changelog": "https://github.com/SavageEberron/sweb-core-rules/blob/master/CHANGELOG.md",
+  "bugs": "https://github.com/SavageEberron/sweb-core-rules/issues",
+  "readme": "#{URL}#",
+  "esmodules": [
+    "scripts/index.js"
+  ],
+  "scripts": [
+    "scripts/lib/lib.js"
+  ],
+  "styles": [
+    "styles/sweb-core-rules.css"
+  ],
+  "relationships": {
+    "requires": [
+        {
+            "id": "swade-core-rules",
+            "type": "module",
+            "compatibility": {}
+        },
+        {
+            "id": "swade-fantasy-companion",
+            "type": "module",
+            "compatibility": {}
+        }
+    ],
+    "systems": [
+        {
+            "id": "swade",
+            "type": "system",
+            "compatibility": {}
+        }
+    ]
+},
+"languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
     }
   ],
   "packs": [
@@ -36,18 +69,25 @@
         "ASSISTANT": "OWNER"
       },
       "system": "swade",
-      "flags": {}
+      "flags": {},
+      "visible": true,
+      "banner": "modules/sweb-core-rules/assets/banner/banner_01.webp"
     }
   ],
-  "url": "#{URL}#",
-  "manifest": "#{MANIFEST}#",
-  "download": "#{DOWNLOAD}#",
   "license": "LICENSE",
-  "readme": "README.md",
   "media": [
     {
       "type": "icon",
       "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
     }
-  ]
-}
+  ],
+  "packFolders": [
+    {
+      "name": "Savage Eberron",
+      "sorting": "m",
+      "color": "#197419",
+      "packs": [
+        "sweb-rules"
+      ]
+    }
+  ]}
