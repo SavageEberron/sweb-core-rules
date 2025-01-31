@@ -3,9 +3,12 @@
   "title": "Savage Eberron: Campaign Setting",
   "description": "Homebrew Foundry module to handle information for my Savage Worlds in the Eberron Campaign Setting. Includes information from Savage Worlds Adventure Edition, Fantasy Companion, and Homebrew rules for use in my Savage Eberron.",
   "version": "#{VERSION}#",
-  "manifest": "#{MANIFEST}#",
-  "url": "#{URL}#",
-  "download": "#{DOWNLOAD}#",
+  "library": "false",
+  "manifestPlusVersion": "1.2.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
   "authors": [
     {
       "name": "DM Freewolf",
@@ -15,33 +18,15 @@
       "flags": {}
     }
   ],
-  "compatibility": {
-    "minimum": "12",
-    "verified": "12"
+  "relationships": {
+    "systems": [
+      {
+        "id": "swade",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
   },
-  "changelog": "https://github.com/SavageEberron/sweb-core-rules/blob/master/CHANGELOG.md",
-  "bugs": "https://github.com/SavageEberron/sweb-core-rules/issues",
-    "relationships": {
-        "requires": [
-            {
-                "id": "swade-core-rules",
-                "type": "module",
-                "compatibility": {}
-            },
-            {
-                "id": "swade-fantasy-companion",
-                "type": "module",
-                "compatibility": {}
-            }
-        ],
-        "systems": [
-            {
-                "id": "swade",
-                "type": "system",
-                "compatibility": {}
-            }
-        ]
-    },
   "packs": [
     {
       "name": "sweb-rules",
@@ -56,6 +41,25 @@
       "flags": {}
     }
   ],
+  "esmodules": [
+    "scripts/sweb-core-rules.js"
+  ],
+  "scripts": [
+    "scripts/lib/lib.js"
+  ],
+  "styles": [
+    "styles/sweb-core-rules.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
   "license": "LICENSE",
   "readme": "README.md",
   "media": [
