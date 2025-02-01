@@ -10,6 +10,18 @@
     "minimum": "12",
     "verified": "12"
   },
+  "authors": [
+    {
+      "name": "DM Freewolf",
+      "email": "phillip@everafter.games",
+      "url": "https://www.savagetalesofeberron.com",
+      "discord": "freewolf98",
+      "flags": {}
+    }
+  ],
+  "styles": [
+    "styles/sweb-core-rules.css"
+  ],
   "relationships": {
     "requires": [
         {
@@ -31,15 +43,6 @@
         }
     ]
   },
-  "authors": [
-    {
-      "name": "DM Freewolf",
-      "email": "phillip@everafter.games",
-      "url": "https://www.savagetalesofeberron.com",
-      "discord": "freewolf98",
-      "flags": {}
-    }
-  ],
   "packs": [
     {
       "name": "sweb-rules",
