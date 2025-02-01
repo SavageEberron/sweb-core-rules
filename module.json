@@ -6,6 +6,10 @@
   "url": "#{URL}#",
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",
+  "changelog": "https://github.com/SavageEberron/sweb-core-rules/blob/master/CHANGELOG.md",
+  "readme": "https://github.com/SavageEberron/sweb-core-rules/blob/master/README.md",
+  "bugs": "https://github.com/SavageEberron/sweb-core-rules/issues",
+  "license": "LICENSE",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -57,12 +61,13 @@
       "flags": {}
     }
   ],
-  "license": "LICENSE",
-  "readme": "README.md",
   "media": [
     {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
-    }
+      "type": "setup",
+      "url": "modules/sweb-core-rules/assets/logos/banner-setup.webp",
+      "thumbnail": "modules/sweb-core-rules/assets/logos/banner-setup.webp",
+      "loop": false,
+      "flags": {}
+  }
   ]
 }
