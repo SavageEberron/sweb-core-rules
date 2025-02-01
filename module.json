@@ -58,7 +58,44 @@
         "ASSISTANT": "OWNER"
       },
       "system": "swade",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_01.webp",
       "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+        "name": "Savage Eberron",
+        "sorting": "m",
+        "color": "#197419",
+        "packs": [
+            "sweb-rules"
+        ],
+        "folders": [
+            {
+                "name": "Character Options",
+                "sorting": "a",
+                "color": "#197419",
+                "packs": [
+                ],
+                "folders": []
+            },
+            {
+                "name": "Adventuring Equipment",
+                "sorting": "a",
+                "color": "#197419",
+                "packs": [
+                ],
+                "folders": []
+            },
+            {
+                "name": "NPCs and Bestiary",
+                "sorting": "a",
+                "color": "#197419",
+                "packs": [
+                ],
+                "folders": []
+            }
+        ]
     }
   ],
   "media": [
