@@ -60,42 +60,64 @@
       "system": "swade",
       "banner": "modules/sweb-core-rules/assets/banner/banner_01.webp",
       "flags": {}
-    }
+    },
+    {
+      "name": "sweb-abilities",
+      "label": "Abilities",
+      "path": "packs/sweb-abilities",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_02.webp",
+      "flags": {}
+    },
+    {
+      "name": "sweb-hindrances",
+      "label": "Hindrances",
+      "path": "packs/sweb-hindrances",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_03.webp",
+      "flags": {}
+    },
+    {
+      "name": "sweb-edges",
+      "label": "Edges",
+      "path": "packs/sweb-edges",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_04.webp",
+      "flags": {}
+}
   ],
   "packFolders": [
     {
-        "name": "Savage Eberron",
-        "sorting": "m",
-        "color": "#197419",
-        "packs": [
+      "name": "Savage Eberron",
+      "sorting": "m",
+      "color": "#197419",
+      "folders": [
+        {
+          "name": "Core Rules",
+          "sorting": "m",
+          "color": "#197419",
+          "packs": [
             "sweb-rules"
-        ],
-        "folders": [
-            {
-                "name": "Character Options",
-                "sorting": "a",
-                "color": "#197419",
-                "packs": [
-                ],
-                "folders": []
-            },
-            {
-                "name": "Adventuring Equipment",
-                "sorting": "a",
-                "color": "#197419",
-                "packs": [
-                ],
-                "folders": []
-            },
-            {
-                "name": "NPCs and Bestiary",
-                "sorting": "a",
-                "color": "#197419",
-                "packs": [
-                ],
-                "folders": []
-            }
-        ]
+          ],
+          "folders": []
+        }
+      ],
+      "packs": []
     }
   ],
   "media": [
