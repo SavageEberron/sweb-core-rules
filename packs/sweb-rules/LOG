@@ -1,3 +1,5 @@
-2025/01/29-21:38:12.470 e4 Recovering log #4
-2025/01/29-21:38:12.475 e4 Delete type=0 #4
-2025/01/29-21:38:12.475 e4 Delete type=3 #2
+2025/02/03-11:50:29.211 acbc Recovering log #7
+2025/02/03-11:50:29.212 acbc Level-0 table #9: started
+2025/02/03-11:50:29.218 acbc Level-0 table #9: 469683 bytes OK
+2025/02/03-11:50:29.222 acbc Delete type=0 #7
+2025/02/03-11:50:29.222 acbc Delete type=3 #6
