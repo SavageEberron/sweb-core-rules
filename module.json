@@ -88,6 +88,19 @@
       "flags": {}
     },
     {
+      "name": "sweb-skills",
+      "label": "Skills",
+      "path": "packs/sweb-skills",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_04.webp",
+      "flags": {}
+    },
+    {
       "name": "sweb-edges",
       "label": "Edges",
       "path": "packs/sweb-edges",
@@ -97,9 +110,22 @@
         "ASSISTANT": "OWNER"
       },
       "system": "swade",
-      "banner": "modules/sweb-core-rules/assets/banner/banner_04.webp",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_05.webp",
       "flags": {}
-}
+    },
+    {
+      "name": "sweb-powers",
+      "label": "Powers",
+      "path": "packs/sweb-powers",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_06.webp",
+      "flags": {}
+    }
   ],
   "packFolders": [
     {
@@ -112,7 +138,12 @@
           "sorting": "m",
           "color": "#197419",
           "packs": [
-            "sweb-rules"
+            "sweb-rules",
+            "sweb-abilities",
+            "sweb-hindrances",
+            "sweb-skills",
+            "sweb-edges",
+            "sweb-powers"
           ],
           "folders": []
         }
