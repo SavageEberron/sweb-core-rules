@@ -1,0 +1,8 @@
+2025/02/06-15:58:37.904 abcc Recovering log #12
+2025/02/06-15:58:37.908 abcc Delete type=0 #12
+2025/02/06-15:58:37.908 abcc Delete type=3 #10
+2025/02/06-16:12:25.844 aff8 Level-0 table #17: started
+2025/02/06-16:12:25.844 aff8 Level-0 table #17: 0 bytes OK
+2025/02/06-16:12:25.845 aff8 Delete type=0 #15
+2025/02/06-16:12:25.850 aff8 Manual compaction at level-0 from '!folders!1UNRoz0DHQ2Oc47N' @ 72057594037927935 : 1 .. '!items.effects!si5Ek4HFqHRCfDm0.3XgMLMWoNmxJeFKH' @ 0 : 0; will stop at (end)
+2025/02/06-16:12:25.850 aff8 Manual compaction at level-1 from '!folders!1UNRoz0DHQ2Oc47N' @ 72057594037927935 : 1 .. '!items.effects!si5Ek4HFqHRCfDm0.3XgMLMWoNmxJeFKH' @ 0 : 0; will stop at (end)

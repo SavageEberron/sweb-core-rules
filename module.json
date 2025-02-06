@@ -138,6 +138,110 @@
       "system": "swade",
       "banner": "modules/sweb-core-rules/assets/banner/banner_09.webp",
       "flags": {}
+    },
+    {
+      "name": "sweb-gear",
+      "label": "Gear",
+      "path": "packs/sweb-gear",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_10.webp",
+      "flags": {}
+    },
+    {
+      "name": "sweb-armor",
+      "label": "Armor and Shields",
+      "path": "packs/sweb-armor",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_11.webp",
+      "flags": {}
+    },
+    {
+      "name": "sweb-weapons",
+      "label": "Weapons",
+      "path": "packs/sweb-weapons",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_12.webp",
+      "flags": {}
+    },
+    {
+      "name": "sweb-treasure",
+      "label": "Treasure & Magic Items",
+      "path": "packs/sweb-treasure",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_13.webp",
+      "flags": {}
+    },
+    {
+      "name": "sweb-decks",
+      "label": "Decks",
+      "path": "packs/sweb-decks",
+      "type": "Cards",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_14.webp",
+      "flags": {}
+    },
+    {
+      "name": "sweb-bestiary",
+      "label": "Bestiary",
+      "path": "packs/sweb-bestiary",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_15.webp",
+      "flags": {}
+    },
+    {
+      "name": "sweb-bestiary-abilities",
+      "label": "Bestiary Abilities",
+      "path": "packs/sweb-bestiary-abilities",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_16.webp",
+      "flags": {}
+    },
+    {
+      "name": "sweb-tables",
+      "label": "Tables",
+      "path": "packs/sweb-tables",
+      "type": "Cards",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_17.webp",
+      "flags": {}
     }
   ],
   "packFolders": [
