@@ -1,7 +1,19 @@
-2025/02/06-15:58:37.878 abcc Recovering log #43
-2025/02/06-15:58:37.883 abcc Delete type=0 #43
-2025/02/06-15:58:37.883 abcc Delete type=3 #41
-2025/02/06-16:12:25.839 aff8 Level-0 table #48: started
-2025/02/06-16:12:25.839 aff8 Level-0 table #48: 0 bytes OK
-2025/02/06-16:12:25.841 aff8 Delete type=0 #46
-2025/02/06-16:12:25.843 aff8 Manual compaction at level-0 from '!folders!EsRslwDjkZirXSol' @ 72057594037927935 : 1 .. '!items.effects!yeT6LBcb8KAKAOdn.5FQw39SZ4CXdtfQX' @ 0 : 0; will stop at (end)
+2025/02/06-17:22:46.379 663c Recovering log #50
+2025/02/06-17:22:46.383 663c Delete type=0 #3
+2025/02/06-17:22:46.383 663c Delete type=0 #5
+2025/02/06-17:22:46.383 663c Delete type=2 #7
+2025/02/06-17:22:46.383 663c Delete type=2 #10
+2025/02/06-17:22:46.383 663c Delete type=0 #11
+2025/02/06-17:22:46.383 663c Delete type=0 #13
+2025/02/06-17:22:46.383 663c Delete type=0 #19
+2025/02/06-17:22:46.383 663c Delete type=0 #21
+2025/02/06-17:22:46.383 663c Delete type=0 #34
+2025/02/06-17:22:46.383 663c Delete type=0 #50
+2025/02/06-17:22:46.383 663c Delete type=3 #2
+2025/02/06-17:22:46.383 663c Delete type=3 #4
+2025/02/06-17:22:46.383 663c Delete type=3 #9
+2025/02/06-17:22:46.383 663c Delete type=3 #12
+2025/02/06-17:22:46.384 663c Delete type=3 #18
+2025/02/06-17:22:46.384 663c Delete type=3 #20
+2025/02/06-17:22:46.384 663c Delete type=3 #33
+2025/02/06-17:22:46.384 663c Delete type=3 #49

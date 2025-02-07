@@ -58,7 +58,7 @@
         "ASSISTANT": "OWNER"
       },
       "system": "swade",
-      "banner": "modules/sweb-core-rules/assets/banner/banner_03.webp",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_02.webp",
       "flags": {}
     },
     {
@@ -71,7 +71,7 @@
         "ASSISTANT": "OWNER"
       },
       "system": "swade",
-      "banner": "modules/sweb-core-rules/assets/banner/banner_04.webp",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_03.webp",
       "flags": {}
     },
     {
@@ -84,7 +84,7 @@
         "ASSISTANT": "OWNER"
       },
       "system": "swade",
-      "banner": "modules/sweb-core-rules/assets/banner/banner_05.webp",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_04.webp",
       "flags": {}
     },
     {
@@ -97,7 +97,7 @@
         "ASSISTANT": "OWNER"
       },
       "system": "swade",
-      "banner": "modules/sweb-core-rules/assets/banner/banner_06.webp",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_05.webp",
       "flags": {}
     },
     {
@@ -110,7 +110,7 @@
         "ASSISTANT": "OWNER"
       },
       "system": "swade",
-      "banner": "modules/sweb-core-rules/assets/banner/banner_07.webp",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_06.webp",
       "flags": {}
     },
     {
@@ -123,7 +123,7 @@
         "ASSISTANT": "OWNER"
       },
       "system": "swade",
-      "banner": "modules/sweb-core-rules/assets/banner/banner_08.webp",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_07.webp",
       "flags": {}
     },
     {
@@ -136,7 +136,7 @@
         "ASSISTANT": "OWNER"
       },
       "system": "swade",
-      "banner": "modules/sweb-core-rules/assets/banner/banner_09.webp",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_08.webp",
       "flags": {}
     },
     {
@@ -149,7 +149,7 @@
         "ASSISTANT": "OWNER"
       },
       "system": "swade",
-      "banner": "modules/sweb-core-rules/assets/banner/banner_10.webp",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_09.webp",
       "flags": {}
     },
     {
@@ -162,7 +162,7 @@
         "ASSISTANT": "OWNER"
       },
       "system": "swade",
-      "banner": "modules/sweb-core-rules/assets/banner/banner_11.webp",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_10.webp",
       "flags": {}
     },
     {
@@ -175,7 +175,7 @@
         "ASSISTANT": "OWNER"
       },
       "system": "swade",
-      "banner": "modules/sweb-core-rules/assets/banner/banner_12.webp",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_11.webp",
       "flags": {}
     },
     {
@@ -188,7 +188,7 @@
         "ASSISTANT": "OWNER"
       },
       "system": "swade",
-      "banner": "modules/sweb-core-rules/assets/banner/banner_13.webp",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_12.webp",
       "flags": {}
     },
     {
@@ -201,7 +201,7 @@
         "ASSISTANT": "OWNER"
       },
       "system": "swade",
-      "banner": "modules/sweb-core-rules/assets/banner/banner_14.webp",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_13.webp",
       "flags": {}
     },
     {
@@ -214,7 +214,7 @@
         "ASSISTANT": "OWNER"
       },
       "system": "swade",
-      "banner": "modules/sweb-core-rules/assets/banner/banner_15.webp",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_14.webp",
       "flags": {}
     },
     {
@@ -227,7 +227,7 @@
         "ASSISTANT": "OWNER"
       },
       "system": "swade",
-      "banner": "modules/sweb-core-rules/assets/banner/banner_16.webp",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_15.webp",
       "flags": {}
     },
     {
@@ -240,7 +240,7 @@
         "ASSISTANT": "OWNER"
       },
       "system": "swade",
-      "banner": "modules/sweb-core-rules/assets/banner/banner_17.webp",
+      "banner": "modules/sweb-core-rules/assets/banner/banner_16.webp",
       "flags": {}
     }
   ],
