@@ -1,3 +1,5 @@
-2025/02/14-14:47:02.246 4ce8 Recovering log #84
-2025/02/14-14:47:02.250 4ce8 Delete type=0 #84
-2025/02/14-14:47:02.250 4ce8 Delete type=3 #83
+2025/02/20-21:17:11.781 b2e8 Recovering log #91
+2025/02/20-21:17:11.781 b2e8 Level-0 table #93: started
+2025/02/20-21:17:11.783 b2e8 Level-0 table #93: 125087 bytes OK
+2025/02/20-21:17:11.788 b2e8 Delete type=0 #91
+2025/02/20-21:17:11.788 b2e8 Delete type=3 #90
