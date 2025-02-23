@@ -1,5 +1,3 @@
-2025/02/20-21:17:11.811 b2e8 Recovering log #104
-2025/02/20-21:17:11.812 b2e8 Level-0 table #106: started
-2025/02/20-21:17:11.816 b2e8 Level-0 table #106: 294903 bytes OK
-2025/02/20-21:17:11.820 b2e8 Delete type=0 #104
-2025/02/20-21:17:11.820 b2e8 Delete type=3 #103
+2025/02/22-15:04:51.665 c6c Recovering log #114
+2025/02/22-15:04:51.669 c6c Delete type=0 #114
+2025/02/22-15:04:51.669 c6c Delete type=3 #113
