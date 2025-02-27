@@ -1,3 +1,15 @@
-2025/02/26-10:49:35.514 439c Recovering log #108
-2025/02/26-10:49:35.518 439c Delete type=0 #108
-2025/02/26-10:49:35.518 439c Delete type=3 #105
+2025/02/27-09:33:06.206 2390 Recovering log #115
+2025/02/27-09:33:06.210 2390 Delete type=0 #115
+2025/02/27-09:33:06.210 2390 Delete type=3 #113
+2025/02/27-10:24:26.926 8374 Level-0 table #119: started
+2025/02/27-10:24:26.930 8374 Level-0 table #119: 240870 bytes OK
+2025/02/27-10:24:26.931 8374 Delete type=0 #117
+2025/02/27-10:24:26.941 8374 Manual compaction at level-0 from '!folders!0w5jIWbHmN4Pmt1l' @ 72057594037927935 : 1 .. '!items.effects!ybw29T7lIl6MEyuJ.ZiJyPqSncBFi4dll' @ 0 : 0; will stop at '!items.effects!ybw29T7lIl6MEyuJ.ZiJyPqSncBFi4dll' @ 4320 : 0
+2025/02/27-10:24:26.941 8374 Compacting 2@0 + 1@1 files
+2025/02/27-10:24:26.945 8374 Generated table #120@0: 318 keys, 149382 bytes
+2025/02/27-10:24:26.945 8374 Compacted 2@0 + 1@1 files => 149382 bytes
+2025/02/27-10:24:26.947 8374 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/02/27-10:24:26.947 8374 Delete type=2 #110
+2025/02/27-10:24:26.947 8374 Delete type=2 #114
+2025/02/27-10:24:26.947 8374 Delete type=2 #119
+2025/02/27-10:24:26.956 8374 Manual compaction at level-0 from '!items.effects!ybw29T7lIl6MEyuJ.ZiJyPqSncBFi4dll' @ 4320 : 0 .. '!items.effects!ybw29T7lIl6MEyuJ.ZiJyPqSncBFi4dll' @ 0 : 0; will stop at (end)
