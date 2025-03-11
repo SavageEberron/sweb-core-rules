@@ -1,10 +1,3 @@
-2025/03/07-20:39:47.500 edc0 Recovering log #24
-2025/03/07-20:39:47.504 edc0 Delete type=0 #3
-2025/03/07-20:39:47.504 edc0 Delete type=0 #19
-2025/03/07-20:39:47.505 edc0 Delete type=0 #24
-2025/03/07-20:39:47.505 edc0 Delete type=3 #2
-2025/03/07-20:39:47.505 edc0 Delete type=3 #18
-2025/03/07-20:39:47.505 edc0 Delete type=3 #23
-2025/03/07-21:35:32.493 1d7c Level-0 table #28: started
-2025/03/07-21:35:32.532 1d7c Level-0 table #28: 5583451 bytes OK
-2025/03/07-21:35:32.535 1d7c Delete type=0 #26
+2025/03/11-09:19:47.642 11d08 Recovering log #46
+2025/03/11-09:19:47.646 11d08 Delete type=0 #46
+2025/03/11-09:19:47.647 11d08 Delete type=3 #45
