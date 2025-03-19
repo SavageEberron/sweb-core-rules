@@ -234,7 +234,7 @@
       "name": "sweb-tables",
       "label": "Tables",
       "path": "packs/sweb-tables",
-      "type": "Cards",
+      "type": "RollTable",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
