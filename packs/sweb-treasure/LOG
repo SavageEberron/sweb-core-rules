@@ -1,6 +1,7 @@
-2025/03/24-14:18:54.358 93e4 Recovering log #80
-2025/03/24-14:18:54.361 93e4 Level-0 table #82: started
-2025/03/24-14:18:54.365 93e4 Level-0 table #82: 472428 bytes OK
-2025/03/24-14:18:54.370 93e4 Delete type=0 #80
-2025/03/24-14:18:54.370 93e4 Delete type=3 #79
-2025/03/24-18:02:43.173 d214 Moved #82 to level-1 472428 bytes OK: files[ 0 1 1 0 0 0 0 ]
+2025/03/25-21:41:00.352 de88 Recovering log #88
+2025/03/25-21:41:00.357 de88 Level-0 table #91: started
+2025/03/25-21:41:00.364 de88 Level-0 table #91: 962909 bytes OK
+2025/03/25-21:41:00.370 de88 Delete type=2 #82
+2025/03/25-21:41:00.370 de88 Delete type=2 #85
+2025/03/25-21:41:00.370 de88 Delete type=0 #88
+2025/03/25-21:41:00.371 de88 Delete type=3 #87
