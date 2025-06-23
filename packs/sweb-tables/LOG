@@ -1,23 +1,5 @@
-2025/06/20-14:28:32.234 a94c Recovering log #54
-2025/06/20-14:28:32.235 a94c Level-0 table #56: started
-2025/06/20-14:28:32.238 a94c Level-0 table #56: 151005 bytes OK
-2025/06/20-14:28:32.242 a94c Delete type=0 #7
-2025/06/20-14:28:32.243 a94c Delete type=0 #11
-2025/06/20-14:28:32.243 a94c Delete type=0 #17
-2025/06/20-14:28:32.243 a94c Delete type=0 #30
-2025/06/20-14:28:32.243 a94c Delete type=0 #42
-2025/06/20-14:28:32.243 a94c Delete type=0 #54
-2025/06/20-14:28:32.243 a94c Delete type=3 #6
-2025/06/20-14:28:32.243 a94c Delete type=3 #10
-2025/06/20-14:28:32.243 a94c Delete type=3 #16
-2025/06/20-14:28:32.243 a94c Delete type=3 #29
-2025/06/20-14:28:32.243 a94c Delete type=3 #41
-2025/06/20-14:28:32.243 a94c Delete type=3 #53
-2025/06/20-14:28:32.244 9bac Compacting 4@0 + 0@1 files
-2025/06/20-14:28:32.248 9bac Generated table #58@0: 583 keys, 119808 bytes
-2025/06/20-14:28:32.248 9bac Compacted 4@0 + 0@1 files => 119808 bytes
-2025/06/20-14:28:32.250 9bac compacted to: files[ 0 1 0 0 0 0 0 ]
-2025/06/20-14:28:32.250 9bac Delete type=2 #19
-2025/06/20-14:28:32.250 9bac Delete type=2 #44
-2025/06/20-14:28:32.250 9bac Delete type=2 #47
-2025/06/20-14:28:32.250 9bac Delete type=2 #56
+2025/06/22-22:49:58.318 71ac Recovering log #61
+2025/06/22-22:49:58.319 71ac Level-0 table #63: started
+2025/06/22-22:49:58.323 71ac Level-0 table #63: 231578 bytes OK
+2025/06/22-22:49:58.327 71ac Delete type=0 #61
+2025/06/22-22:49:58.327 71ac Delete type=3 #59
