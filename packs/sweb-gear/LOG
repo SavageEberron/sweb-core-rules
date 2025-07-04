@@ -1,3 +1,5 @@
-2025/06/24-10:26:37.192 bfbc Recovering log #58
-2025/06/24-10:26:37.196 bfbc Delete type=0 #58
-2025/06/24-10:26:37.197 bfbc Delete type=3 #56
+2025/07/03-20:41:44.167 7bdc Recovering log #73
+2025/07/03-20:41:44.167 7bdc Level-0 table #75: started
+2025/07/03-20:41:44.169 7bdc Level-0 table #75: 13368 bytes OK
+2025/07/03-20:41:44.172 7bdc Delete type=0 #73
+2025/07/03-20:41:44.174 7bdc Delete type=3 #72
