@@ -1,0 +1,63 @@
+.sweb-core {
+    font-feature-settings: auto, normal;
+    --white: #fff;
+    --black: #000;
+    --red: #8c160f;
+    --table-color: rgba(111, 87, 1, .2);
+    --table-color-tint: hsla(45, 37%, 94%, .3);
+    --border-radius: 10px;
+    --body-font-family: "EB Garamond", serif;
+    --heading-font-family: Anton, sans-serif;
+    --table-title-font-family: "Roboto Slab", sans-serif;
+    --table-headers-font-family: "EB Garamond", serif;
+    --table-summary-font-family: var(--table-headers-font-family);
+    --quote-font-family: "Rock Salt", cursive;
+}
+
+.swadefc article.journal-entry-page .sweb-core table {
+    font-feature-settings: "lnum";
+    border-radius: var(--border-radius);
+    border-spacing: 0;
+    font-variant-numeric: lining-nums;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100%;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+}
+
+.swadefc article.journal-entry-page .sweb-core .table-title th {
+    margin: 0 auto;
+    text-align: center;
+    font-size: .9rem;
+}
+
+.swadefc article.journal-entry-page .sweb-core .table-title th h3 {
+    margin-top: 0.5em;
+}
+
+.swadefc article.journal-entry-page .sweb-core .table-column-header th {
+    background-color: var(--black);
+    color: var(--white);
+    margin 0 auto;
+    text-align: center;
+}
+
+.swadefc article.journal-entry-page .sweb-core .table-column-header th h4 {
+    color: var(--white);
+    margin: .15em 0 .05em;
+}
+
+.swadefc article.journal-entry-page .sweb-core table th {
+    background-color: var(--red);
+    color: var(--white);
+    font-size: .7rem;
+}
+
+.swadefc article.journal-entry-page .sweb-core aside table th {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.swadefc article.journal-entry-page .sweb-core aside table th h4 {
+    color: var(--white);
+}
