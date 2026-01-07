@@ -1,5 +1,5 @@
-2025/07/03-20:41:44.167 7bdc Recovering log #73
-2025/07/03-20:41:44.167 7bdc Level-0 table #75: started
-2025/07/03-20:41:44.169 7bdc Level-0 table #75: 13368 bytes OK
-2025/07/03-20:41:44.172 7bdc Delete type=0 #73
-2025/07/03-20:41:44.174 7bdc Delete type=3 #72
+2026/01/07-14:06:39.853 644c Recovering log #78
+2026/01/07-14:06:39.856 644c Level-0 table #80: started
+2026/01/07-14:06:39.861 644c Level-0 table #80: 309269 bytes OK
+2026/01/07-14:06:39.866 644c Delete type=0 #78
+2026/01/07-14:06:39.866 644c Delete type=3 #77

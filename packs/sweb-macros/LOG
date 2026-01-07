@@ -1,3 +1,5 @@
-2025/07/03-20:41:44.246 7abc Recovering log #47
-2025/07/03-20:41:44.251 7abc Delete type=0 #47
-2025/07/03-20:41:44.251 7abc Delete type=3 #46
+2026/01/07-14:06:40.096 89e0 Recovering log #51
+2026/01/07-14:06:40.096 89e0 Level-0 table #53: started
+2026/01/07-14:06:40.103 89e0 Level-0 table #53: 696 bytes OK
+2026/01/07-14:06:40.110 89e0 Delete type=0 #51
+2026/01/07-14:06:40.110 89e0 Delete type=3 #50
