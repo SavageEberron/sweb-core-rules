@@ -1,3 +1,7 @@
+/* fix issue with controls menu being hidden under fantasy companion input  header */
+.application .controls-dropdown {
+z-index:100;
+}
 .sweb-core {
     font-feature-settings: auto, normal;
     --white: #fff;
@@ -13,7 +17,13 @@
     --table-summary-font-family: var(--table-headers-font-family);
     --quote-font-family: "Rock Salt", cursive;
 }
-
+.journal-sheet.swadefc-wrapper:not(.minimized) .window-header .configure-sheet {
+    display: block !important;
+}
+/* Fix double header display of main page title */
+.swadefc-wrapper .journal-page-header {
+    display:none;
+}
 .swadefc article.journal-entry-page .sweb-core table {
     font-feature-settings: "lnum";
     border-radius: var(--border-radius);
@@ -60,4 +70,27 @@
 
 .swadefc article.journal-entry-page .sweb-core aside table th h4 {
     color: var(--white);
+}
+.swadefc h1 {
+     font-size:2.2em;
+}
+.sweb-core .list-heading {
+    font-weight:bold;
+    color: #2d3642;
+}
+.sweb-core ul li:not(.wildcard-item).star-icon::marker {
+    content: "⭐" !important;
+    display: inline-block;
+    font-size: .75em;
+    height: .5em;
+    width: .5em;
+}
+.sweb-core ul:not(.bullet) li:not(.wildcard-item)::marker {
+    color: #2d3642;
+    color: var(--swadefc-heading-dark);
+    content: "■";
+    font-size: 1.3em;
+}
+.sweb-core ul:not(.bullet) li:not(.wildcard-item) {
+    padding-left:.5em;
 }
