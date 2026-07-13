@@ -1,21 +1,3 @@
-2026/06/05-22:31:29.256 92f8 Recovering log #157
-2026/06/05-22:31:29.260 92f8 Delete type=0 #157
-2026/06/05-22:31:29.260 92f8 Delete type=3 #156
-2026/06/05-23:48:55.032 bc70 Level-0 table #161: started
-2026/06/05-23:48:55.032 bc70 Level-0 table #161: 0 bytes OK
-2026/06/05-23:48:55.034 bc70 Delete type=0 #159
-2026/06/05-23:48:55.040 bc70 Manual compaction at level-0 from '!folders!0YNhsfG2kBVaLm80' @ 72057594037927935 : 1 .. '!items.effects!z41suFQDKC5aL1HB.E8iFWmdgN0gWtSDD' @ 0 : 0; will stop at '!items.effects!z41suFQDKC5aL1HB.E8iFWmdgN0gWtSDD' @ 581 : 0
-2026/06/05-23:48:55.040 bc70 Compacting 1@0 + 0@1 files
-2026/06/05-23:48:55.044 bc70 Generated table #162@0: 93 keys, 85690 bytes
-2026/06/05-23:48:55.044 bc70 Compacted 1@0 + 0@1 files => 85690 bytes
-2026/06/05-23:48:55.045 bc70 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/06/05-23:48:55.045 bc70 Delete type=2 #154
-2026/06/05-23:48:55.045 bc70 Manual compaction at level-0 from '!items.effects!z41suFQDKC5aL1HB.E8iFWmdgN0gWtSDD' @ 581 : 0 .. '!items.effects!z41suFQDKC5aL1HB.E8iFWmdgN0gWtSDD' @ 0 : 0; will stop at (end)
-2026/06/05-23:48:55.045 bc70 Manual compaction at level-1 from '!folders!0YNhsfG2kBVaLm80' @ 72057594037927935 : 1 .. '!items.effects!z41suFQDKC5aL1HB.E8iFWmdgN0gWtSDD' @ 0 : 0; will stop at '!items.effects!z41suFQDKC5aL1HB.E8iFWmdgN0gWtSDD' @ 664 : 1
-2026/06/05-23:48:55.045 bc70 Compacting 1@1 + 1@2 files
-2026/06/05-23:48:55.049 bc70 Generated table #163@1: 95 keys, 87247 bytes
-2026/06/05-23:48:55.049 bc70 Compacted 1@1 + 1@2 files => 87247 bytes
-2026/06/05-23:48:55.050 bc70 compacted to: files[ 0 0 1 0 0 0 0 ]
-2026/06/05-23:48:55.050 bc70 Delete type=2 #136
-2026/06/05-23:48:55.050 bc70 Delete type=2 #162
-2026/06/05-23:48:55.055 bc70 Manual compaction at level-1 from '!items.effects!z41suFQDKC5aL1HB.E8iFWmdgN0gWtSDD' @ 664 : 1 .. '!items.effects!z41suFQDKC5aL1HB.E8iFWmdgN0gWtSDD' @ 0 : 0; will stop at (end)
+2026/07/11-21:25:40.541 cd10 Recovering log #160
+2026/07/11-21:25:40.547 cd10 Delete type=0 #160
+2026/07/11-21:25:40.547 cd10 Delete type=3 #158

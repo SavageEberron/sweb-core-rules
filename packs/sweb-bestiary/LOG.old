@@ -1,5 +1,64 @@
-2026/07/11-22:29:26.011 1b90 Recovering log #2
-2026/07/11-22:29:26.028 1b90 Level-0 table #4: started
-2026/07/11-22:29:26.070 1b90 Level-0 table #4: 6114288 bytes OK
-2026/07/11-22:29:26.076 1b90 Delete type=0 #2
-2026/07/11-22:29:26.077 1b90 Delete type=3 #1
+2026/07/11-22:52:54.136 ace0 Recovering log #5
+2026/07/11-22:52:54.157 ace0 Level-0 table #7: started
+2026/07/11-22:52:54.201 ace0 Level-0 table #7: 6196347 bytes OK
+2026/07/11-22:52:54.203 ace0 Recovering log #101
+2026/07/11-22:52:54.204 ace0 Level-0 table #8: started
+2026/07/11-22:52:54.209 ace0 Level-0 table #8: 428075 bytes OK
+2026/07/11-22:52:54.209 ace0 Recovering log #113
+2026/07/11-22:52:54.209 ace0 Recovering log #116
+2026/07/11-22:52:54.209 ace0 Level-0 table #114: started
+2026/07/11-22:52:54.212 ace0 Level-0 table #114: 111936 bytes OK
+2026/07/11-22:52:54.212 ace0 Recovering log #149
+2026/07/11-22:52:54.212 ace0 Level-0 table #117: started
+2026/07/11-22:52:54.215 ace0 Level-0 table #117: 84107 bytes OK
+2026/07/11-22:52:54.215 ace0 Recovering log #221
+2026/07/11-22:52:54.233 ace0 Level-0 table #150: started
+2026/07/11-22:52:54.277 ace0 Level-0 table #150: 6352582 bytes OK
+2026/07/11-22:52:54.279 ace0 Recovering log #237
+2026/07/11-22:52:54.279 ace0 Level-0 table #222: started
+2026/07/11-22:52:54.281 ace0 Level-0 table #222: 50569 bytes OK
+2026/07/11-22:52:54.284 ace0 Delete type=0 #2
+2026/07/11-22:52:54.286 ace0 Delete type=0 #5
+2026/07/11-22:52:54.287 ace0 Delete type=2 #98
+2026/07/11-22:52:54.287 ace0 Delete type=2 #99
+2026/07/11-22:52:54.287 ace0 Delete type=2 #100
+2026/07/11-22:52:54.287 ace0 Delete type=0 #101
+2026/07/11-22:52:54.287 ace0 Delete type=2 #102
+2026/07/11-22:52:54.287 ace0 Delete type=2 #106
+2026/07/11-22:52:54.288 ace0 Delete type=2 #107
+2026/07/11-22:52:54.288 ace0 Delete type=2 #108
+2026/07/11-22:52:54.288 ace0 Delete type=2 #110
+2026/07/11-22:52:54.288 ace0 Delete type=2 #112
+2026/07/11-22:52:54.289 ace0 Delete type=0 #113
+2026/07/11-22:52:54.289 ace0 Delete type=0 #116
+2026/07/11-22:52:54.289 ace0 Delete type=2 #142
+2026/07/11-22:52:54.289 ace0 Delete type=2 #143
+2026/07/11-22:52:54.289 ace0 Delete type=2 #144
+2026/07/11-22:52:54.289 ace0 Delete type=0 #149
+2026/07/11-22:52:54.289 ace0 Delete type=2 #194
+2026/07/11-22:52:54.290 ace0 Delete type=2 #195
+2026/07/11-22:52:54.290 ace0 Delete type=2 #196
+2026/07/11-22:52:54.290 ace0 Delete type=2 #197
+2026/07/11-22:52:54.290 ace0 Delete type=0 #221
+2026/07/11-22:52:54.290 ace0 Delete type=2 #231
+2026/07/11-22:52:54.290 ace0 Delete type=2 #232
+2026/07/11-22:52:54.292 ace0 Delete type=2 #233
+2026/07/11-22:52:54.292 ace0 Delete type=2 #234
+2026/07/11-22:52:54.292 ace0 Delete type=0 #237
+2026/07/11-22:52:54.292 ace0 Delete type=2 #238
+2026/07/11-22:52:54.292 ace0 Delete type=3 #1
+2026/07/11-22:52:54.292 ace0 Delete type=3 #3
+2026/07/11-22:52:54.293 2b4c Compacting 7@0 + 0@1 files
+2026/07/11-22:52:54.318 2b4c Generated table #239@0: 1311 keys, 2122801 bytes
+2026/07/11-22:52:54.345 2b4c Generated table #240@0: 2063 keys, 2128999 bytes
+2026/07/11-22:52:54.371 2b4c Generated table #241@0: 2263 keys, 2126929 bytes
+2026/07/11-22:52:54.375 2b4c Generated table #242@0: 115 keys, 26081 bytes
+2026/07/11-22:52:54.375 2b4c Compacted 7@0 + 0@1 files => 6404810 bytes
+2026/07/11-22:52:54.376 2b4c compacted to: files[ 0 4 0 0 0 0 0 ]
+2026/07/11-22:52:54.376 2b4c Delete type=2 #4
+2026/07/11-22:52:54.377 2b4c Delete type=2 #7
+2026/07/11-22:52:54.377 2b4c Delete type=2 #8
+2026/07/11-22:52:54.377 2b4c Delete type=2 #114
+2026/07/11-22:52:54.377 2b4c Delete type=2 #117
+2026/07/11-22:52:54.377 2b4c Delete type=2 #150
+2026/07/11-22:52:54.379 2b4c Delete type=2 #222
