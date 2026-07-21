@@ -1,3 +1,19 @@
-2026/07/17-11:52:49.676 74c8 Recovering log #268
-2026/07/17-11:52:49.681 74c8 Delete type=0 #268
-2026/07/17-11:52:49.681 74c8 Delete type=3 #266
+2026/07/17-23:00:18.217 b2dc Recovering log #279
+2026/07/17-23:00:18.218 b2dc Level-0 table #282: started
+2026/07/17-23:00:18.222 b2dc Level-0 table #282: 422406 bytes OK
+2026/07/17-23:00:18.226 b2dc Delete type=0 #279
+2026/07/17-23:00:18.226 b2dc Delete type=3 #275
+2026/07/17-23:00:18.294 43e0 Compacting 3@0 + 4@1 files
+2026/07/17-23:00:18.319 43e0 Generated table #284@0: 1250 keys, 2123879 bytes
+2026/07/17-23:00:18.345 43e0 Generated table #285@0: 2034 keys, 2126518 bytes
+2026/07/17-23:00:18.370 43e0 Generated table #286@0: 2070 keys, 2129963 bytes
+2026/07/17-23:00:18.382 43e0 Generated table #287@0: 1120 keys, 869675 bytes
+2026/07/17-23:00:18.382 43e0 Compacted 3@0 + 4@1 files => 7250035 bytes
+2026/07/17-23:00:18.383 43e0 compacted to: files[ 0 4 0 0 0 0 0 ]
+2026/07/17-23:00:18.383 43e0 Delete type=2 #269
+2026/07/17-23:00:18.384 43e0 Delete type=2 #270
+2026/07/17-23:00:18.384 43e0 Delete type=2 #271
+2026/07/17-23:00:18.384 43e0 Delete type=2 #272
+2026/07/17-23:00:18.385 43e0 Delete type=2 #278
+2026/07/17-23:00:18.387 43e0 Delete type=2 #280
+2026/07/17-23:00:18.387 43e0 Delete type=2 #282

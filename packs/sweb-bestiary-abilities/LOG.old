@@ -1,3 +1,5 @@
-2026/07/17-11:52:49.714 74c8 Recovering log #173
-2026/07/17-11:52:49.718 74c8 Delete type=0 #173
-2026/07/17-11:52:49.718 74c8 Delete type=3 #172
+2026/07/17-23:00:18.299 b2dc Recovering log #177
+2026/07/17-23:00:18.299 b2dc Level-0 table #179: started
+2026/07/17-23:00:18.303 b2dc Level-0 table #179: 86051 bytes OK
+2026/07/17-23:00:18.307 b2dc Delete type=0 #177
+2026/07/17-23:00:18.308 b2dc Delete type=3 #176
