@@ -1,3 +1,5 @@
-2026/07/17-23:00:18.312 2edc Recovering log #215
-2026/07/17-23:00:18.317 2edc Delete type=0 #215
-2026/07/17-23:00:18.317 2edc Delete type=3 #214
+2026/08/06-16:55:30.013 b31c Recovering log #229
+2026/08/06-16:55:30.013 b31c Level-0 table #231: started
+2026/08/06-16:55:30.021 b31c Level-0 table #231: 208077 bytes OK
+2026/08/06-16:55:30.021 b31c Delete type=0 #229
+2026/08/06-16:55:30.021 b31c Delete type=3 #228
