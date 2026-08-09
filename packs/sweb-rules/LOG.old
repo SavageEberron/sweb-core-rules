@@ -1,5 +1,5 @@
-2026/08/06-16:55:29.863 b31c Recovering log #271
-2026/08/06-16:55:29.863 b31c Level-0 table #273: started
-2026/08/06-16:55:29.872 b31c Level-0 table #273: 592156 bytes OK
-2026/08/06-16:55:29.872 b31c Delete type=0 #271
-2026/08/06-16:55:29.878 b31c Delete type=3 #270
+2026/08/07-21:02:09.064 c57c Recovering log #277
+2026/08/07-21:02:09.066 c57c Level-0 table #279: started
+2026/08/07-21:02:09.072 c57c Level-0 table #279: 534084 bytes OK
+2026/08/07-21:02:09.076 c57c Delete type=0 #277
+2026/08/07-21:02:09.077 c57c Delete type=3 #275

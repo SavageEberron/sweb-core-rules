@@ -24,6 +24,12 @@ z-index:100;
 .swadefc-wrapper .journal-page-header {
     display:none;
 }
+.red-label {
+   color: var(--red);
+   font-weight: bold; 
+}
+/** TABLES **/
+
 .swadefc article.journal-entry-page .sweb-core table {
     font-feature-settings: "lnum";
     border-radius: var(--border-radius);
@@ -71,9 +77,11 @@ z-index:100;
 .swadefc article.journal-entry-page .sweb-core aside table th h4 {
     color: var(--white);
 }
+
 .swadefc h1 {
      font-size:2.2em;
 }
+/** LISTS **/
 .sweb-core .list-heading {
     font-weight:bold;
     color: #2d3642;
@@ -93,4 +101,16 @@ z-index:100;
 }
 .sweb-core ul:not(.bullet) li:not(.wildcard-item) {
     padding-left:.5em;
+}
+/** Correct issue with first paragraph bouncing to next line right after a bullet point **/
+.journal-entry-content .sweb-core aside.sidebar ul li p:first-of-type, .journal-entry-content .sweb-core aside.sidebar ol li p:first-of-type, .sweb-core .editor-content aside.sidebar ul li p:first-of-type, .sweb-core .editor-content aside.sidebar ol li p:first-of-type, .sweb-core details .content.description aside.sidebar ul li p:first-of-type, .sweb-core details .content.description aside.sidebar ol li p:first-of-type, .sweb-core details .content>.description aside.sidebar ul li p:first-of-type, .sweb-core details .content>.description aside.sidebar ol li p:first-of-type {
+    display: inline;
+}
+/** Having first word closer to the bullet point **/
+.journal-entry-content .sweb-core aside.sidebar ul li p, .journal-entry-content .sweb-core aside.sidebar ol li p, .sweb-core .editor-content aside.sidebar ul li p, .sweb-core .editor-content aside.sidebar ol li p, .sweb-core details .content.description aside.sidebar ul li p, .sweb-core details .content.description aside.sidebar ol li p, .sweb-core details .content>.description aside.sidebar ul li p, .sweb-core details .content>.description aside.sidebar ol li p {
+    padding-left: 1ch;
+}
+/** If first word or phrase is bolded make a red header **/
+.sweb-core ul.red-bullet-list li p strong:first-of-type {
+   color: var(--red);
 }
