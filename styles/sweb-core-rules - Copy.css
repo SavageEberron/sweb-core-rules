@@ -1,0 +1,235 @@
+/** fix issue with controls menu being hidden under fantasy companion input  header **/
+.application .controls-dropdown {
+    z-index:100;
+}
+/** Core settings and variables for sweb-core **/
+.sweb-core {
+    font-feature-settings: auto, normal;
+    --white: #fff;
+    --black: #000;
+    --red: #8c160f;
+    --table-color: rgba(111, 87, 1, .2);
+    --table-color-tint: hsla(45, 37%, 94%, .3);
+    --border-radius: 10px;
+    --body-font-family: "EB Garamond", serif;
+    --heading-font-family: Anton, sans-serif;
+    --table-title-font-family: "Roboto Slab", sans-serif;
+    --table-headers-font-family: "EB Garamond", serif;
+    --table-summary-font-family: var(--table-headers-font-family);
+    --quote-font-family: "Rock Salt", cursive;
+}
+.journal-sheet.swadefc-wrapper:not(.minimized) .window-header .configure-sheet {
+    display: block !important;
+}
+/** Fix double header display of main page title **/
+.swadefc-wrapper .journal-page-header {
+    display:none;
+}
+/** Color red label and bold the text **/
+.red-label {
+   color: var(--red);
+   font-weight: bold; 
+}
+/** Correct issue with first paragraph bouncing to next line right after a bullet point **/
+.journal-entry-content .sweb-core aside.sidebar ul li p:first-of-type, .journal-entry-content .sweb-core aside.sidebar ol li p:first-of-type, .sweb-core .editor-content aside.sidebar ul li p:first-of-type, .sweb-core .editor-content aside.sidebar ol li p:first-of-type, .sweb-core details .content.description aside.sidebar ul li p:first-of-type, .sweb-core details .content.description aside.sidebar ol li p:first-of-type, .sweb-core details .content>.description aside.sidebar ul li p:first-of-type, .sweb-core details .content>.description aside.sidebar ol li p:first-of-type {
+    display: inline;
+}
+/** Having first word closer to the bullet point **/
+.journal-entry-content .sweb-core aside.sidebar ul li p, .journal-entry-content .sweb-core aside.sidebar ol li p, .sweb-core .editor-content aside.sidebar ul li p, .sweb-core .editor-content aside.sidebar ol li p, .sweb-core details .content.description aside.sidebar ul li p, .sweb-core details .content.description aside.sidebar ol li p, .sweb-core details .content>.description aside.sidebar ul li p, .sweb-core details .content>.description aside.sidebar ol li p {
+    padding-left: 1ch;
+}
+/** If first word or phrase is bolded make a red header **/
+.sweb-core ul.red-bullet-list li p strong:first-of-type {
+   color: var(--red);
+}
+
+/** TABLES **/
+.swadefc article.journal-entry-page .sweb-core table {
+    font-feature-settings: "lnum";
+    border-radius: var(--border-radius);
+    border-spacing: 0;
+    font-variant-numeric: lining-nums;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100%;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+}
+.swadefc article.journal-entry-page .sweb-core .table-title th {
+    margin: 0 auto;
+    text-align: center;
+    font-size: .9rem;
+}
+.swadefc article.journal-entry-page .sweb-core .table-title th h3 {
+    margin-top: 0.5em;
+}
+.swadefc article.journal-entry-page .sweb-core .table-column-header th {
+    background-color: var(--black);
+    color: var(--white);
+    margin: 0 auto;
+    text-align: center;
+}
+.swadefc article.journal-entry-page .sweb-core .table-column-header th h4 {
+    color: var(--white);
+    margin: .15em 0 .05em;
+}
+.swadefc article.journal-entry-page .sweb-core table th {
+    background-color: var(--red);
+    color: var(--white);
+    font-size: .7rem;
+}
+.swadefc article.journal-entry-page .sweb-core aside table th {
+    background-color: var(--black);
+    color: var(--white);
+}
+form.journal-sheet .journal-entry-pages table {
+    font-variant-numeric: lining-nums;
+    overflow-wrap: break-word;
+/*    border-radius: var(--border-radius); */
+    border-radius: 10px;
+    border-spacing: 0;
+    width: 100%;
+    margin: 2rem auto;
+    overflow: hidden;
+}
+form.journal-sheet article.journal-entry-page .sweb-core table th.main-heading {
+    background-color: var(--red);
+    color: var(--white);
+    font-family: var(--table-title-font-family);
+    text-transform: uppercase;
+    border-bottom: none;
+    margin: 0;
+    padding: .5em .5rem .4em;
+    font-size: 1.2rem;
+}
+form.journal-sheet article.journal-entry-page .sweb-core table th.bar-heading {
+    background: unset;
+}
+form.journal-sheet article.journal-entry-page .sweb-core table span.no-class {
+    grid-gap: 1em;
+    grid-template-columns: 1fr max-content 1fr;
+    align-items: center;
+    display: grid;
+
+}
+form.journal-sheet article.journal-entry-page .sweb-core table span.no-class:before,
+form.journal-sheet article.journal-entry-page .sweb-core table span.no-class:after {
+    content: "";
+    background: var(--black);
+    height: 3px;
+}
+.swadefc article.journal-entry-page .sweb-core aside table th h4 {
+    color: var(--white);
+}
+.swadefc h1 {
+     font-size:2.2em;
+}
+
+/** LISTS **/
+.sweb-core .list-heading {
+    font-weight:bold;
+    color: #2d3642;
+}
+.sweb-core ul li:not(.wildcard-item).star-icon::marker {
+    content: "⭐" !important;
+    display: inline-block;
+    font-size: .75em;
+    height: .5em;
+    width: .5em;
+}
+.sweb-core ul:not(.bullet) li:not(.wildcard-item)::marker {
+    color: #2d3642;
+    color: var(--swadefc-heading-dark);
+    content: "■";
+    font-size: 1.3em;
+}
+.sweb-core ul:not(.bullet) li:not(.wildcard-item) {
+    padding-left:.5em;
+}
+
+/** DIALOGUE POP-UPS **/
+.sweb-core.window-app {
+    position: absolute;
+    z-index: var(--z-index-window);
+    transform-origin: top left;
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: calc(var(--header-height) + 1rem);
+    min-width: 200px;
+    max-height: calc(100vh - 1.5 * var(--hotbar-height));
+    max-width: 100%;
+    overflow: hidden;
+    background: var(--background);
+    font-size: var(--font-size-14);
+    color: var(--color-text-primary);
+    color-scheme: var(--color-scheme);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    box-shadow: 0 0 10px #000;
+}
+.sweb-core.window-app .window-header {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex: 0 0 var(--header-height);
+    position: relative;
+    overflow: hidden;
+    padding: 0 0.5rem;
+    gap: 0.25rem;
+    z-index: 1;
+    cursor: var(--cursor-grab);
+    background: var(--red);
+    font-size: var(--font-size-13);
+    color: var(--white);
+    border-bottom: 1px solid var(--color-border);
+    box-shadow: inset 0 1px #ffffff2e, 0 2px 10px #59110d2e;
+}
+.sweb-core.window-app .window-header h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.sweb-core.window-app .window-header h4:before {
+    font-family: FontAwesome;
+    content: "\e38b";  
+    padding-right:.5em;
+}
+.sweb-core.window-app section.window-content {
+    background-color: var(--scr-window-bg);
+    background-image: linear-gradient(var(--scr-window-overlay)), url(../../../modules/swade-fantasy-companion/assets/layout/FC---Page-Background.webp);
+    background-blend-mode: multiply, normal;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 1rem;
+}
+.sweb-core.window-app section.window-content .dialog-content,
+.sweb-core.window-app section.window-content .dialog-buttons
+ {
+    padding: .85rem;
+}
+.sweb-core .window-content fieldset {
+    background: var(--scr-panel-bg);
+    border: 1px solid #8c160f2e;
+    border-radius: 10px;
+    margin: 0;
+    padding: .7rem .8rem .8rem;
+    box-shadow: inset 0 1px #ffffff8c, 0 8px 18px #592d0d14;   
+}
+.sweb-core .window-content fieldset label {
+    font-weight: bold;
+}
+.sweb-core .window-content button.dialog-button {
+    min-width: 7rem;
+    min-height: 1.95rem;
+    color: var(--white);
+    letter-spacing: .03em;
+    background: var(--red);
+    border: 1px solid var(--white);
+    box-shadow: inset 0 1px 0 #ffffff59, 0 1px 3px var(--black);
+    border-radius: 6px;
+    padding: .28rem .7rem;
+    font-size: .84rem;
+    font-weight: 700;
+    transition: background-color .15s, border-color .15s, box-shadow .15s, transform .15s;
+}
+
