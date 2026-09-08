@@ -104,6 +104,19 @@ form.journal-sheet article.journal-entry-page .sweb-core table th.main-heading {
     padding: .5em .5rem .4em;
     font-size: 1.2rem;
 }
+form.swade-item-sheet section.sheet-body .sweb-core table th.main-heading h2,
+form.journal-sheet article.journal-entry-page .sweb-core table th.main-heading h2 {
+    color: var(--white);
+    font-family: var(--table-title-font-family);
+    font-size: 1rem;
+}
+form.swade-item-sheet section.sheet-body .sweb-core table th.bar-heading h2,
+form.journal-sheet article.journal-entry-page .sweb-core table th.bar-heading h2
+ {
+    color: var(--black);
+    font-size: 1em;
+    font-weight: 400;
+}
 form.swade-item-sheet section.sheet-body .sweb-core table th.bar-heading,
 form.journal-sheet article.journal-entry-page .sweb-core table th.bar-heading
  {

@@ -1,3 +1,5 @@
-2026/08/31-18:34:03.980 cdb0 Recovering log #246
-2026/08/31-18:34:03.980 cdb0 Delete type=0 #246
-2026/08/31-18:34:03.980 cdb0 Delete type=3 #245
+2026/09/07-10:49:46.847 eb78 Recovering log #266
+2026/09/07-10:49:46.849 eb78 Level-0 table #269: started
+2026/09/07-10:49:46.853 eb78 Level-0 table #269: 389503 bytes OK
+2026/09/07-10:49:46.859 eb78 Delete type=0 #266
+2026/09/07-10:49:46.859 eb78 Delete type=3 #264
