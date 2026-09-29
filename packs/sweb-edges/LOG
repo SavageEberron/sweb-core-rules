@@ -1,11 +1,5 @@
-2026/09/07-10:49:46.702 c3dc Recovering log #392
-2026/09/07-10:49:46.703 c3dc Level-0 table #394: started
-2026/09/07-10:49:46.705 c3dc Level-0 table #394: 59672 bytes OK
-2026/09/07-10:49:46.710 c3dc Delete type=0 #392
-2026/09/07-10:49:46.710 c3dc Delete type=3 #391
-2026/09/07-16:03:15.366 6c24 Compacting 1@0 + 1@1 files
-2026/09/07-16:03:15.375 6c24 Generated table #396@0: 455 keys, 359876 bytes
-2026/09/07-16:03:15.375 6c24 Compacted 1@0 + 1@1 files => 359876 bytes
-2026/09/07-16:03:15.375 6c24 compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/09/07-16:03:15.375 6c24 Delete type=2 #368
-2026/09/07-16:03:15.376 6c24 Delete type=2 #394
+2026/09/13-09:05:49.028 94ec Recovering log #409
+2026/09/13-09:05:49.028 94ec Delete type=2 #400
+2026/09/13-09:05:49.028 94ec Delete type=2 #406
+2026/09/13-09:05:49.028 94ec Delete type=0 #409
+2026/09/13-09:05:49.028 94ec Delete type=3 #408
