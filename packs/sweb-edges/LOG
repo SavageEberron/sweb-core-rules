@@ -1,7 +1,5 @@
-2026/10/15-20:33:44.390 c228 Recovering log #427
-2026/10/15-20:33:44.392 c228 Level-0 table #430: started
-2026/10/15-20:33:44.396 c228 Level-0 table #430: 364204 bytes OK
-2026/10/15-20:33:44.400 c228 Delete type=2 #410
-2026/10/15-20:33:44.400 c228 Delete type=2 #424
-2026/10/15-20:33:44.400 c228 Delete type=0 #427
-2026/10/15-20:33:44.400 c228 Delete type=3 #426
+2026/10/19-20:24:04.763 ccec Recovering log #431
+2026/10/19-20:24:04.764 ccec Level-0 table #433: started
+2026/10/19-20:24:04.768 ccec Level-0 table #433: 388265 bytes OK
+2026/10/19-20:24:04.773 ccec Delete type=0 #431
+2026/10/19-20:24:04.773 ccec Delete type=3 #429
